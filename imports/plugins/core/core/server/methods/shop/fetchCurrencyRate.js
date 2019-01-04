@@ -59,9 +59,11 @@ export default function fetchCurrencyRate() {
 
     // we'll update all the available rates in Shops.currencies whenever we
     // get a rate request, using base currency
+    // const rateUrl =
+    //         `https://openexchangerates.org/api/latest.json?base=${
+    //           baseCurrency}&app_id=${openexchangeratesAppId}`;
     const rateUrl =
-            `https://openexchangerates.org/api/latest.json?base=${
-              baseCurrency}&app_id=${openexchangeratesAppId}`;
+            `https://openexchangerates.org/api/latest.json?app_id=${openexchangeratesAppId}`;
     let rateResults;
 
     // We can get an error if we try to change the base currency with a simple
