@@ -141,6 +141,17 @@ class ProductAdmin extends Component {
     });
   }
 
+  handleSwitchChange = (event, value, field) => {
+    this.setState(({ product }) => ({
+      product: {
+        ...product,
+        [field]: value
+      }
+    }));
+
+    this.handleFieldBlur(event, value, field);
+  }
+
   handleSelectChange = (value, field) => {
     if (this.props.onProductFieldSave) {
       this.props.onProductFieldSave(this.product._id, field, value);
