@@ -1,0 +1,68 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-stripe",
+    "translation": {
+      "reaction-payments": {
+        "admin": {
+          "shortcut": {
+            "stripeLabel": "줄무늬"
+          },
+          "dashboard": {
+            "stripeLabel": "줄무늬",
+            "stripeDescription": "스트라이프 결제"
+          },
+          "paymentSettings": {
+            "stripeLabel": "줄무늬",
+            "stripeSettingsLabel": "줄무늬",
+            "stripeSettingsDescription": "Stripe API 클라이언트 ID가 없습니까?",
+            "stripeSettingsGetItHere": "여기에서 가져 오기",
+            "stripeClientIdWarning": "클라이언트 ID는 PUBLIC 필드입니다. Stripe Connect 설정 페이지에있는 client_id를 사용하고 있는지 확인하십시오.",
+            "stripeClientIdLink": "스트라이프 연결 설정"
+          },
+          "connect": {
+            "stripeConnectNotEnabled": "이 응용 프로그램에서는 Stripe Connect를 사용할 수 없습니다. 관리자에게 문의하십시오.",
+            "shopEmailNotConfigured": "먼저 상점 이메일을 구성하십시오.",
+            "shopAddressNotConfigured": "먼저 상점 주소를 구성하십시오.",
+            "applicationFeeDescription": "이 숫자는 마켓 플레이스가이 마켓 플레이스에서 판매하는 품목에 대해 마켓 플레이스 (이 상점)가 차지하는 수수료를 나타냅니다. 이 수수료는 Stripe Connect가 설정되어 있고 마켓 플레이스와 가맹점 모두에서 사용할 수 있고 스트라이프가 결제를 수행하는 데 사용 된 결제 제공자 인 경우에만 적용됩니다.",
+            "moreDetails": "자세한 내용은",
+            "docsLink": "Stripe Connect 문서"
+          },
+          "redirect": {
+            "stripeConnectWaitingNote": "몇 초 후에 자동으로 리디렉션됩니다. 여기를 클릭하십시오."
+          }
+        },
+        "checkout": {
+          "formLabels": {
+            "cardNumber": "카드 번호",
+            "expDate": "만료일",
+            "CVV": "CVV",
+            "postalCode": "우편 번호"
+          },
+          "errorMessages": {
+            "cardDeclined": "카드가 거부되었습니다. 다른 카드를 사용하십시오.",
+            "countryUnsupported": "귀하의 국가는 지원되지 않습니다.",
+            "expiredCard": "카드가 만료되었습니다. 만료일을 확인하거나 다른 카드를 사용하십시오.",
+            "incompleteCVC": "카드의 보안 코드가 불완전합니다.",
+            "incompleteExpiry": "카드의 만료일이 불완전합니다.",
+            "incompleteNumber": "카드 번호가 불완전합니다.",
+            "incompleteZIP": "우편 번호가 불완전합니다.",
+            "incorrectCVC": "카드의 보안 코드가 잘못되었습니다.",
+            "incorrectNumber": "카드 번호가 잘못되었습니다. 카드 번호를 확인하거나 다른 카드를 사용하십시오.",
+            "incorrectZIP": "카드의 우편 번호가 잘못되었습니다.",
+            "invalidCVC": "카드의 CVC가 잘못되었습니다.",
+            "invalidExpiryMonth": "카드의 만료일이 잘못되었습니다.",
+            "invalidExpiryYear": "카드의 만료 연도가 잘못되었습니다.",
+            "incompleteExpiryMonthPast": "카드 유효 기간이 과거입니다.",
+            "incompleteExpiryYearPast": "카드의 만료 연도가 과거입니다.",
+            "invalidNumber": "카드 번호가 잘못되었습니다.",
+            "postalCodeInvalid": "카드의 우편 번호가 유효하지 않습니다.",
+            "stateUnsupported": "상태가 지원되지 않습니다.",
+            "whoops": "와! 뭔가 잘못 됐어. 다시 시도하십시오."
+          }
+        }
+      }
+    }
+  }
+]

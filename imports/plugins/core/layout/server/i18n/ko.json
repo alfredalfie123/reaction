@@ -1,0 +1,18 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-layout",
+    "translation": {
+      "reaction-layout": {
+        "admin": {
+          "dashboard": {
+            "layoutLabel": "형세",
+            "layoutTitle": "형세",
+            "layoutDescription": "레이아웃 유틸리티"
+          }
+        }
+      }
+    }
+  }
+]

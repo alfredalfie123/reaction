@@ -4,6 +4,7 @@ import { Template } from "meteor/templating";
 import { ReactiveDict } from "meteor/reactive-dict";
 import { AutoForm } from "meteor/aldeed:autoform";
 import { DiscountCodes } from "../collections/codes";
+import { Tags } from "/lib/collections";
 import { i18next } from "/client/api";
 import { DiscountCodes as DiscountSchema } from "../../lib/collections/schemas";
 import { IconButton, Loading, SortableTable } from "/imports/plugins/core/ui/client/components";
@@ -125,6 +126,10 @@ Template.customDiscountCodes.helpers({
     const id = instance.state.get("editingId");
     const discount = DiscountCodes.findOne(id) || {};
     return discount;
+  },
+
+  tagOptions() {
+    return Tags.find().map((tag) => ({ label: tag.name, value: tag.slug }));
   }
 });
 

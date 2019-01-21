@@ -1,0 +1,26 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-shipping-rates",
+    "translation": {
+      "reaction-shipping-rates": {
+        "admin": {
+          "shippingSettings": {
+            "flatRateLabel": "고정 요금",
+            "confirmRateDelete": "요금을 삭제 하시겠습니까?",
+            "rateSaved": "고정 요율이 저장되었습니다.",
+            "rateFailed": "고정 요금 업데이트에 실패했습니다.",
+            "noRatesFound": "요금이 없습니다."
+          },
+          "shippingGrid": {
+            "name": "이름",
+            "group": "그룹",
+            "rate": "율",
+            "label": "상표"
+          }
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

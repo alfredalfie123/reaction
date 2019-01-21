@@ -18,6 +18,10 @@ class DiscountList extends Component {
   }
   // list items
   renderList() {
+    // eslint-disable-next-line no-console
+    console.log(this.props.listItems);
+    // eslint-disable-next-line no-console
+    console.log("List Items");
     const listItems = this.props.listItems.map((listItem) => this.renderItem(listItem.id, listItem.code));
 
     return (
@@ -56,8 +60,18 @@ class DiscountList extends Component {
 
   // render list view
   render() {
-    const { listItems } = this.props;
-    return (listItems.length >= 1) ? this.renderList() : this.renderNoneFound();
+    // eslint-disable-next-line no-console
+    console.log(this.props);
+    // eslint-disable-next-line no-console
+    console.log("@@@@@@@@@@@@@@@@@");
+    // const { listItems } = this.props;
+    return (
+      <React.Fragment>
+        {this.renderList()}
+        {this.renderNoneFound()}
+      </React.Fragment>
+    );
+    // return (listItems.length >= 1) ? this.renderList() : this.renderNoneFound();
   }
 }
 
@@ -68,19 +82,29 @@ DiscountList.propTypes = {
   validatedInput: PropTypes.bool // eslint-disable-line react/boolean-prop-naming
 };
 
+// eslint-disable-next-line require-jsdoc
 function composer(props, onData) {
   const currentCart = Reaction.Collections[props.collection].findOne({
     _id: props.id
   });
 
   const listItems = [];
-  const listItem = currentCart.billing.find((element) => element.paymentMethod && element.paymentMethod.processor === "code");
-  if (listItem) {
-    listItems.push({
-      id: listItem._id,
-      code: listItem.paymentMethod.code,
-      discount: listItem.paymentMethod.amount
-    });
+  // const listItem = currentCart.billing.find((element) => element.paymentMethod && element.paymentMethod.processor === "code");
+  // if (listItem) {
+  //   listItems.push({
+  //     id: listItem._id,
+  //     code: listItem.paymentMethod.code,
+  //     discount: listItem.paymentMethod.amount
+  //   });
+  // }
+  for (const element of currentCart.billing) {
+    if (element.paymentMethod && element.paymentMethod.processor === "code") {
+      listItems.push({
+        id: element._id,
+        code: element.paymentMethod.code,
+        discount: element.paymentMethod.amount
+      });
+    }
   }
 
   onData(null, {

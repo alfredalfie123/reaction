@@ -1,0 +1,37 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-payments",
+    "translation": {
+      "reaction-payments": {
+        "admin": {
+          "shortcut": {
+            "paymentsLabel": "지불",
+            "paymentsTitle": "지불"
+          },
+          "dashboard": {
+            "paymentsLabel": "지불",
+            "paymentsTitle": "지불",
+            "paymentsDescription": "지급 설정"
+          },
+          "settings": {
+            "paymentSettingsLabel": "지불"
+          },
+          "paymentSettings": {
+            "paymentMethod": "기본 공급자"
+          }
+        },
+        "checkoutPayment": {
+          "addPaymentToCompleteOrder": "주문을 완료하려면 결제를 추가하십시오.",
+          "processingError": "지불에 문제가 있습니다.",
+          "completeYourOrder": "주문 완료",
+          "noPaymentMethods": "지불 방법이 구성되지 않았습니다.",
+          "contactAdmin": "점포 관리자에게 문의하십시오.",
+          "configureNow": "지금 구성하십시오.",
+          "failedToPlaceOrder": "주문을하지 못했습니다."
+        }
+      }
+    }
+  }
+]

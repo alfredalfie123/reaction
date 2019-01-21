@@ -93,10 +93,14 @@ export default function sendOrderEmail(order, action) {
   let carrier = "";
 
   for (const billingRecord of order.billing) {
-    subtotal += Number.parseFloat(billingRecord.invoice.subtotal);
-    taxes += Number.parseFloat(billingRecord.invoice.taxes);
-    discounts += Number.parseFloat(billingRecord.invoice.discounts);
-    amount += billingRecord.paymentMethod.amount;
+    if (billingRecord.invoice && billingRecord.invoice) {
+      subtotal += Number.parseFloat(billingRecord.invoice.subtotal);
+      taxes += Number.parseFloat(billingRecord.invoice.taxes);
+      discounts += Number.parseFloat(billingRecord.invoice.discounts);
+    }
+    if (billingRecord.paymentMethod.processor !== "code") {
+      amount += billingRecord.paymentMethod.amount;
+    }
     ({ address } = billingRecord);
     ({ paymentMethod } = billingRecord);
   }

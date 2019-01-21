@@ -1,0 +1,21 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-product-admin",
+    "translation": {
+      "reaction-product-admin": {
+        "admin": {
+          "settings": {
+            "productSettingsLabel": "제품 설정",
+            "productDetailsLabel": "제품 세부 정보"
+          }
+        },
+        "productDetailEdit": {
+          "template": "주형",
+          "templateSelectPlaceholder": "템플릿 선택"
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

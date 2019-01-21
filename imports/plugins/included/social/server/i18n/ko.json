@@ -1,0 +1,44 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-social",
+    "translation": {
+      "reaction-social": {
+        "admin": {
+          "dashboard": {
+            "socialLabel": "사회적인",
+            "socialTitle": "사회적인",
+            "socialDescription": "소셜 채널 구성"
+          },
+          "settings": {
+            "public": {
+              "apps": {
+                "facebook": {
+                  "title": "페이스 북",
+                  "appId": "앱 ID",
+                  "profilePage": "프로필 페이지"
+                },
+                "googleplus": {
+                  "title": "Google+",
+                  "profilePage": "프로필 페이지"
+                },
+                "pinterest": {
+                  "title": "Pinterest",
+                  "profilePage": "프로필 페이지"
+                },
+                "twitter": {
+                  "title": "지저귀다",
+                  "username": "사용자 이름",
+                  "profilePage": "프로필 페이지"
+                }
+              }
+            },
+            "socialSettingsLabel": "소셜 설정",
+            "socialSettingsSaved": "소셜 설정이 저장되었습니다."
+          }
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

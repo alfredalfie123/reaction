@@ -5,17 +5,18 @@
   "translation": {
     "reaction-discounts": {
       "checkoutPayment": {
-        "applyDiscount": "Ứng dụng",
+        "applyDiscount": "Áp dụng",
         "discountError": "Xin lỗi, có lỗi khi áp dụng giảm giá."
       },
       "discounts": {
         "enterItHere": "Có một mã? Nhập vào đây.",
         "discountLabel": "Mã giảm giá",
-        "submitted": "Giảm lưu và áp dụng",
-        "applied": "ứng dụng",
+        "submitted": "Lưu và áp dụng",
+        "applied": "Áp dụng",
         "code": "mã",
-        "codeIsExpired": "Mã là hết hạn",
+        "codeIsExpired": "Mã hết hạn",
         "codeIsInvalid": "Mã không hợp lệ",
+        "codeApplied": "Mã đã được sử dụng",
         "multiShopError": "Không thể áp dụng mức chiết khấu đối với giỏ hàng hoặc đơn đặt hàng nhiều cửa hàng"
       },
       "admin": {

@@ -1,0 +1,47 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-dashboard",
+    "translation": {
+      "reaction-dashboard": {
+        "admin": {
+          "shortcut": {
+            "dashboardLabel": "계기반"
+          },
+          "dashboard": {
+            "coreTitle": "계기반",
+            "packageGroupActionsLabel": "행위",
+            "packageGroupSettingsLabel": "설정"
+          },
+          "settings": {
+            "shopSettingsLabel": "가게",
+            "import": "수입",
+            "general": {
+              "label": "일반"
+            },
+            "address": {
+              "label": "주소"
+            },
+            "options": {
+              "label": "옵션"
+            },
+            "openexchangerates": {
+              "refreshPeriod": "새롭게 하다"
+            }
+          },
+          "alerts": {
+            "shopGeneralSettingsSaved": "쇼핑 일반 설정이 저장되었습니다.",
+            "shopGeneralSettingsFailed": "상점 일반 설정 업데이트에 실패했습니다.",
+            "shopAddressSettingsSaved": "상점 주소 설정이 저장되었습니다.",
+            "shopAddressSettingsFailed": "상점 주소 설정을 업데이트하지 못했습니다.",
+            "shopExternalServicesSettingsSaved": "외부 서비스 설정 저장.",
+            "shopExternalServicesSettingsFailed": "외부 서비스 설정 업데이트를 수행하지 못했습니다.",
+            "shopOptionsSettingsSaved": "쇼핑 옵션이 저장되었습니다.",
+            "shopOptionsSettingsFailed": "상점 옵션 업데이트에 실패했습니다."
+          }
+        }
+      }
+    }
+  }
+]

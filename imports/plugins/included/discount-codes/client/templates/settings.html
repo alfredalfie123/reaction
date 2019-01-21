@@ -21,10 +21,11 @@
         resetOnSuccess=true
       }}
         <div>
-           {{> afQuickField name='code' placeholder="Discount Code"}}
+          {{> afQuickField name='code' placeholder="Discount Code"}}
           {{> afQuickField name='discount' placeholder="Discount formula value"}}
           {{> afQuickField name='conditions.accountLimit'}}
           {{> afQuickField name='conditions.redemptionLimit'}}
+          {{> afQuickField name='tag' options=tagOptions}}
           {{> afQuickField name='calculation'}}
           {{> afQuickField name='discountMethod' type="hidden"}}
         </div>
@@ -47,6 +48,7 @@
           {{> afQuickField name='discount' placeholder="Discount formula value"}}
           {{> afQuickField name='conditions.accountLimit'}}
           {{> afQuickField name='conditions.redemptionLimit'}}
+          {{> afQuickField name='tag' options=tagOptions}}
           {{> afQuickField name='calculation'}}
           {{> afQuickField name='discountMethod' type="hidden"}}
         </div>

@@ -12,6 +12,7 @@ import he from "./he.json";
 import hr from "./hr.json";
 import hu from "./hu.json";
 import it from "./it.json";
+import ko from "./ko.json";
 import my from "./my.json";
 import nb from "./nb.json";
 import nl from "./nl.json";
@@ -30,4 +31,4 @@ import zh from "./zh.json";
 // imports for easier handling by
 // automated translation software
 //
-loadTranslations([ar, bg, cs, de, el, en, es, fr, he, hr, hu, it, my, nb, nl, pl, pt, ro, ru, sl, sv, tr, vi, zh]);
+loadTranslations([ar, bg, cs, de, el, en, es, fr, he, hr, hu, it, ko, my, nb, nl, pl, pt, ro, ru, sl, sv, tr, vi, zh]);

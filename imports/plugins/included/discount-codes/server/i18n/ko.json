@@ -1,0 +1,50 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "discount-codes",
+    "translation": {
+      "reaction-discounts": {
+        "checkoutPayment": {
+          "applyDiscount": "대다",
+          "discountError": "죄송합니다. 할인 적용 중 오류가 발생했습니다."
+        },
+        "discounts": {
+          "enterItHere": "코드가 있으십니까? 여기에 입력하십시오.",
+          "discountLabel": "할인 코드",
+          "submitted": "할인 적용 및 저장",
+          "applied": "적용된",
+          "code": "암호",
+          "codeIsExpired": "코드가 만료되었습니다.",
+          "codeIsInvalid": "코드가 잘못되었습니다.",
+          "codeApplied": "코드가 이미 적용되었습니다.",
+          "multiShopError": "멀티 샵 카트 또는 주문에는 할인을 적용 할 수 없습니다."
+        },
+        "admin": {
+          "paymentSettings": {
+            "codesLabel": "코드"
+          },
+          "settings": {
+            "codesLabel": "코드",
+            "noCustomDiscountCodesFound": "할인 코드가 없습니다.",
+            "settingsSaveSuccess": "설정이 저장되었습니다.",
+            "settingsSaveFailure": "설정을 저장하지 못했습니다.",
+            "confirmRateDelete": "할인율 삭제를 확인하십시오."
+          },
+          "discountGrid": {
+            "code": "암호",
+            "label": "상표",
+            "discountMethod": "방법",
+            "discount": "할인",
+            "calculation": {
+              "method": "계산"
+            },
+            "conditions": {
+              "redemptionLimit": "한도"
+            }
+          }
+        }
+      }
+    }
+  }
+]

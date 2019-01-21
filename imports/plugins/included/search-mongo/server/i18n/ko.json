@@ -1,0 +1,21 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-search",
+    "translation": {
+      "reaction-search": {
+        "admin": {
+          "dashboard": {
+            "searchLabel": "수색",
+            "searchTitle": "수색",
+            "searchDescription": "제품 검색"
+          },
+          "settings": {
+            "searchSettingsLabel": "수색"
+          }
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

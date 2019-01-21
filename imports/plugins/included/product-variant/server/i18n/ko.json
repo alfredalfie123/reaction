@@ -1,0 +1,31 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-product-variant",
+    "translation": {
+      "reaction-product-variant": {
+        "admin": {
+          "helpText": {
+            "compareAtPrice": "원래 가격 또는 MSRP",
+            "optionInventoryQuantity": "목록",
+            "optionTitle": "제품 세부 정보 페이지에 표시됨",
+            "price": "구매 가격",
+            "title": "카트, 체크 아웃 및 주문에 표시됨",
+            "variantBackorderToggle": "백 오너스 수당은 이제 옵션에 의해 통제됩니다.",
+            "variantInventoryQuantity": "옵션에 따라 변형 인벤토리가 제어됩니다."
+          },
+          "tooltip": {
+            "validationError": "유효성 검사 오류"
+          }
+        },
+        "productGrid": {
+          "noProductsFound": "제품이 없습니다."
+        },
+        "productDetailEdit": {
+          "variantDetails": "변형 세부 정보"
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

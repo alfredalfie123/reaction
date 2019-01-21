@@ -1,0 +1,26 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-checkout",
+    "translation": {
+      "reaction-checkout": {
+        "cartDrawerItems": {
+          "limitedSupply": "제한된 공급"
+        },
+        "cartCompleted": {
+          "orderSummary": "주문 요약",
+          "discountTotal": "총 할인액",
+          "orderTotal": "주문 총액",
+          "fulfilledBy": "수행자 :",
+          "orderItems": "항목 순서대로",
+          "orderSubtotal": "소계",
+          "orderShipping": "배송",
+          "orderTax": "세",
+          "trackYourDelivery": "주문 업데이트가에 전송됩니다.",
+          "registerGuest": "여보세요! 이메일 추가 및 주문 업데이트 수신"
+        }
+      }
+    }
+  }
+]

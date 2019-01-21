@@ -1,0 +1,30 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-ui",
+    "translation": {
+      "reaction-catalog": {
+        "reactionUI": {
+          "components": {
+            "navbar": "탐색 바",
+            "button": "단추",
+            "sortableTable": {
+              "filterPlaceholder": "데이터 필터링",
+              "tableText": {
+                "noDataMessage": "검색 결과가 없습니다",
+                "previousText": "너무 이른",
+                "nextText": "다음 것",
+                "loadingText": "로드 중 ...",
+                "noDataText": "검색 결과가 없습니다",
+                "pageText": "페이지",
+                "ofText": "의",
+                "rowsText": "행"
+              }
+            }
+          }
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

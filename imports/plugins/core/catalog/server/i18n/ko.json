@@ -1,0 +1,32 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-catalog",
+    "translation": {
+      "reaction-catalog": {
+        "admin": {
+          "catalogProductPublishSuccess": "카탈로그에 게시 된 제품",
+          "catalogCalculateHashError": "이 제품 해시를 계산하는 동안 오류가 발생했습니다.",
+          "shortcut": {
+            "catalogLabel": "목록",
+            "catalogTitle": "목록"
+          },
+          "dashboard": {
+            "catalogLabel": "목록",
+            "catalogTitle": "목록",
+            "catalogDescription": "마켓 플레이스 카탈로그"
+          },
+          "settings": {
+            "catalogSettingsLabel": "목록",
+            "catalogSettingsTitle": "목록",
+            "catalogSettingsDescription": "마켓 플레이스 카탈로그"
+          },
+          "catalogSettings": {
+            "productRevisionsLabel": "제품 개정"
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-accounts",
+    "translation": {
+      "reaction-accounts": {
+        "admin": {
+          "dashboard": {
+            "accountsLabel": "계정",
+            "accountsTitle": "계정",
+            "accountsDescription": "계정 설정"
+          },
+          "settings": {
+            "continue": "잇다",
+            "cancel": "취소",
+            "changeOwner": "소유자 변경",
+            "removeUser": "사용자 삭제",
+            "createGroupSuccess": "그룹이 성공적으로 생성되었습니다.",
+            "updateGroupSuccess": "그룹이 성공적으로 업데이트되었습니다.",
+            "createGroupError": "그룹 만들기 오류",
+            "updateGroupError": "그룹 업데이트 중 오류 발생",
+            "changeShopOwnerWarn": "가게 주인을 변경하려고합니다. 현재 소유자가 대체됩니다.",
+            "changeMktOwnerWarn": "마켓 플레이스 소유자를 변경하려고합니다. 현재 소유자가 대체됩니다.",
+            "removeUserWarn": "그룹에서 사용자를 제거하려고합니다. 사용자가 관련 권한을 잃게됩니다.",
+            "accountsSettingsLabel": "계정",
+            "accountsSettingsTitle": "계정",
+            "accountsSettingsDescription": "계정 설정"
+          },
+          "groupsInvite": {
+            "name": "존 스미스",
+            "email": "example @ localhost",
+            "inviteOwnerError": "사용자를 소유자로 직접 초대 할 수는 없습니다. 소유자 역할은 기존 관리자에게만 이전 될 수 있습니다.",
+            "groupRequired": "그룹이 관리자를 초대해야합니다.",
+            "cannotInvite": "그룹에 초대 할 수 없습니다.",
+            "unableToSendInvitationEmail": "초대 이메일을 보낼 수 없습니다.",
+            "errorSendingInvite": "초대장을 보내는 중에 오류가 발생했습니다.",
+            "NeedToSetUsernameOrEmail": "사용자 이름 또는 전자 메일을 설정해야합니다."
+          }
+        }
+      }
+    }
+  }
+]

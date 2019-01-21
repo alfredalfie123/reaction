@@ -1,0 +1,39 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-marketplace",
+    "translation": {
+      "reaction-marketplace": {
+        "marketplace": {
+          "becomeSeller": "판매자되기",
+          "errorCannotCreateShop": "현재 사용자 {{user}}에게 상점을 만들지 못했습니다.",
+          "yourShopIsReady": "너의 가게는 이제 준비 됐어!"
+        },
+        "marketplaceShops": {
+          "headers": {
+            "name": "가게 이름",
+            "emails": "이메일 연락처",
+            "workflow": "지위"
+          }
+        },
+        "app": {
+          "shops": "숍",
+          "myShop": "내 가게"
+        },
+        "admin": {
+          "connect": {
+            "stripeConnectNotEnabled": "이 응용 프로그램에서는 Stripe Connect를 사용할 수 없습니다. 관리자에게 문의하십시오.",
+            "shopEmailNotConfigured": "먼저 상점 이메일을 구성하십시오.",
+            "shopAddressNotConfigured": "먼저 상점 주소를 구성하십시오.",
+            "shopNotActive": "귀하의 상점이 활성화되어 있지 않습니다. 마켓 플레이스 소유자에게 문의하십시오."
+          },
+          "settings": {
+            "dashboardMarketplaceSettingsSaved": "마켓 플레이스 설정이 저장되었습니다.",
+            "dashboardMarketplaceSettingsFailed": "마켓 플레이스 설정을 저장하지 못했습니다."
+          }
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

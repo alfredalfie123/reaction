@@ -1,0 +1,37 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-templates",
+    "translation": {
+      "reaction-templates": {
+        "admin": {
+          "settings": {
+            "templateSettingsLabel": "주형"
+          }
+        },
+        "templateGrid": {
+          "noTemplatesFound": "템플릿이 없습니다.",
+          "columns": {
+            "title": "표제",
+            "type": "유형",
+            "language": "언어"
+          }
+        },
+        "templateUpdateForm": {
+          "emailTemplates": {
+            "updateEmailTemplate": "이메일 템플릿 업데이트"
+          },
+          "reactTemplates": {
+            "updateReactTemplate": "업데이트 반응 템플릿",
+            "updateUnavailable": "이 인터페이스를 통해 반응 템플릿을 편집 할 수 없습니다."
+          },
+          "alerts": {
+            "templateUpdated": "템플릿이 성공적으로 업데이트되었습니다.",
+            "failedToUpdate": "템플릿을 업데이트하지 못했습니다 : {{err}}"
+          }
+        }
+      }
+    }
+  }
+]

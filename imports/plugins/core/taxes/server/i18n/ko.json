@@ -1,0 +1,49 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-taxes",
+    "translation": {
+      "reaction-taxes": {
+        "admin": {
+          "shortcut": {
+            "taxesLabel": "구실",
+            "taxesTitle": "구실"
+          },
+          "dashboard": {
+            "taxesLabel": "구실",
+            "taxesTitle": "구실",
+            "taxesDescription": "세금 구성"
+          },
+          "taxGrid": {
+            "taxCode": "암호",
+            "rate": "율",
+            "country": "국가",
+            "region": "부위",
+            "postal": "우편 엽서"
+          },
+          "settings": {
+            "taxSettingsLabel": "세"
+          },
+          "taxSettings": {
+            "noCustomTaxRatesFound": "맞춤 세율이 없습니다.",
+            "shopCustomTaxRatesSaved": "맞춤 세율이 저장되었습니다.",
+            "shopCustomTaxRatesFailed": "세율 저장 오류.",
+            "shopTaxMethodsSaved": "저장된 세금 방법.",
+            "shopTaxMethodsAlreadySaved": "납세 코드가 이미로드되었습니다.",
+            "shopTaxMethodsFailed": "세금 절약 방법을 저장하지 못했습니다.",
+            "customRatesLabel": "맞춤 요금",
+            "customRatesDescription": "맞춤 요금",
+            "taxCode": "세금 코드",
+            "taxShipping": "배송 포함",
+            "taxRate": "율",
+            "discountsIncluded": "할인 포함",
+            "taxable": "과세 대상",
+            "nottaxable": "과세 대상이 아닌",
+            "confirmRateDelete": "세율 삭제 확인"
+          }
+        }
+      }
+    }
+  }
+]

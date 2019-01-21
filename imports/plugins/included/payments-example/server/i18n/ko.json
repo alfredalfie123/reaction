@@ -1,0 +1,29 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "example-paymentmethod",
+    "translation": {
+      "reaction-payments": {
+        "admin": {
+          "shortcut": {
+            "examplePaymentProviderLabel": "지불 예",
+            "examplePaymentProviderTitle": "지불 예"
+          },
+          "dashboard": {
+            "examplePaymentProviderLabel": "지불 예",
+            "examplePaymentProviderTitle": "지불 예",
+            "examplePaymentProviderDescription": "지불 방법의 예"
+          },
+          "paymentSettings": {
+            "examplePaymentLabel": "공급자 예",
+            "examplePaymentSettingsLabel": "지불 예",
+            "exampleCredentials": "이것은 지불 방법 설정의 한 예입니다.",
+            "apiClientId": "API 클라이언트 ID",
+            "supportedMethodsLabel": "결제 공급자가 지원하는 방법"
+          }
+        }
+      }
+    }
+  }
+]

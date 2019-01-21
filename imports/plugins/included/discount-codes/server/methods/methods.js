@@ -3,7 +3,7 @@ import Random from "@reactioncommerce/random";
 import { Meteor } from "meteor/meteor";
 import { Match, check } from "meteor/check";
 import Reaction from "/imports/plugins/core/core/server/Reaction";
-import { Cart } from "/lib/collections";
+import { Cart, Tags, Products } from "/lib/collections";
 import { Discounts } from "/imports/plugins/core/discounts/lib/collections";
 import { DiscountCodes as DiscountSchema } from "../../lib/collections/schemas";
 
@@ -29,15 +29,28 @@ export const methods = {
    * @return {Number} returns discount total
    */
   "discounts/codes/discount"(cartId, discountId) {
+    // eslint-disable-next-line no-console
+    console.log("CALLING discounts/codes/discount");
     check(cartId, String);
     check(discountId, String);
     let discount = 0;
     const discountMethod = Discounts.findOne(discountId);
     const cart = Cart.findOne({ _id: cartId });
 
+    const tag = Tags.findOne({ slug: discountMethod.tag });
+
     for (const item of cart.items) {
-      const preDiscount = item.quantity * item.priceWhenAdded.amount;
-      discount += preDiscount * discountMethod.discount / 100;
+      const product = Products.findOne({ _id: item.productId });
+
+      if (tag) {
+        if (product && product.hashtags.indexOf(tag._id) > -1) {
+          const preDiscount = item.quantity * item.priceWhenAdded.amount;
+          discount += preDiscount * discountMethod.discount / 100;
+        }
+      } else {
+        const preDiscount = item.quantity * item.priceWhenAdded.amount;
+        discount += preDiscount * discountMethod.discount / 100;
+      }
     }
 
     return discount;
@@ -260,6 +273,34 @@ export const methods = {
     // is the discount now re-activated
 
     if (discount) {
+      // Check whether this code has already applied or not
+      const idx = objectToApplyDiscount.billing.findIndex((bill) =>
+        bill.paymentMethod &&
+        bill.paymentMethod.processor === "code" &&
+        bill.paymentMethod.code === code);
+      if (idx !== -1) {
+        return { i18nKeyLabel: "Code is already applied", i18nKey: "discounts.codeApplied" };
+      }
+
+      // Check whether this code is applicable for cartItems or not
+      let canAddDiscount = false;
+      if (discount.tag) {
+        const tag = Tags.findOne({ slug: discount.tag });
+        if (tag) {
+          for (const item of items) {
+            const product = Products.findOne({ _id: item.productId });
+
+            if (product && product.hashtags.indexOf(tag._id) > -1) {
+              canAddDiscount = true;
+              break;
+            }
+          }
+          if (!canAddDiscount) {
+            return { i18nKeyLabel: "Can not apply this code", i18nKey: "checkoutPayment.discountError" };
+          }
+        }
+      }
+
       const { conditions } = discount;
       let accountLimitExceeded = false;
       let discountLimitExceeded = false;

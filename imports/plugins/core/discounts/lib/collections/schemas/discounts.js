@@ -154,6 +154,11 @@ export const Discounts = new SimpleSchema({
     type: String,
     optional: true,
     label: "Tag"
+  },
+  "tag": {
+    type: String,
+    label: "Tag",
+    optional: true
   }
 }, { check, tracker: Tracker });
 

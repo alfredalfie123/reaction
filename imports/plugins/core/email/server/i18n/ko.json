@@ -1,0 +1,91 @@
+[{
+  "language": "Korean",
+  "i18n": "ko",
+  "ns": "reaction-email",
+  "translation": {
+    "reaction-email": {
+      "admin": {
+        "dashboard": {
+          "emailLabel": "이메일",
+          "emailTitle": "이메일",
+          "emailDescription": "이메일 설정"
+        },
+        "logs": {
+          "headers": {
+            "emailLogs": "이메일 로그",
+            "email": "이메일",
+            "data": {
+              "subject": "제목",
+              "to": "에"
+            },
+            "sent": "전송 됨",
+            "status": "지위",
+            "updated": "전송 됨"
+          },
+          "noEmails": "아직 이메일이 전송되지 않았습니다.",
+          "limit": "수량",
+          "retry": "다시 해 보다",
+          "noneAvailble": "사용할 수 없음"
+        },
+        "settings": {
+          "mailProvider": "메일 제공 업체",
+          "editSettings": "설정 편집",
+          "emailSettingsLabel": "이메일",
+          "emailSettingsTitle": "이메일",
+          "emailSettingsDescription": "이메일 설정",
+          "fieldNotSet": "설정되지 않음",
+          "status": "지위",
+          "service": "서비스",
+          "user": "사용자",
+          "password": "암호",
+          "host": "숙주",
+          "port": "포트",
+          "passwordShow": "보여 주다",
+          "passwordHide": "숨는 장소"
+        }
+      },
+      "mail": {
+        "headers": {
+          "email": "이메일",
+          "emailSettings": "이메일 설정",
+          "config": "구성",
+          "settings": "SMTP 공급자",
+          "actions": "행위"
+        },
+        "settings": {
+          "selectService": "서비스 선택...",
+          "custom": ""
+        },
+        "logs": {
+          "headers": {
+            "emailLogs": "이메일 로그",
+            "email": "이메일",
+            "subject": "제목",
+            "sent": "전송 됨",
+            "status": "지위"
+          },
+          "noEmails": "아직 이메일이 전송되지 않았습니다",
+          "limit": "수량",
+          "retry": "다시 해 보다",
+          "noneAvailble": "사용할 수 없음"
+        },
+        "alerts": {
+          "error": "오류: {{error}}",
+          "resendSuccess": "님에게 이메일을 다시 보내려고합니다 {{email}}",
+          "missingService": "메일 제공 업체 서비스를 선택하십시오.",
+          "userPassRequired": "SMTP 사용자 및 암호가 필요합니다. {{service}}",
+          "allFieldsRequired": "모든 필드는 맞춤 서비스에 필요합니다.!",
+          "portNaN": "포트는 숫자 여야합니다!",
+          "connectionFailed": "연결에 실패!",
+          "saveAnyway": "설정을 저장 하시겠습니까?",
+          "saveSuccess": "메일 설정 저장 됨.",
+          "saveFailed": "메일 설정을 저장하지 못했습니다.. {{error}}",
+          "cantSendEmail": "서버 오류 : 전자 메일 알림을 보낼 수 없습니다..",
+          "emailSent": "이메일 알림 전송 됨.",
+          "addOrderEmailFailed": "주문에 이메일 추가 실패",
+          "addCartEmailFailed": "장바구니에 이메일을 추가하지 못했습니다"
+        }
+      }
+    }
+  }
+}]

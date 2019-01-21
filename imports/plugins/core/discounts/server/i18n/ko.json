@@ -1,0 +1,24 @@
+[
+  {
+    "language": "Korean",
+    "i18n": "ko",
+    "ns": "reaction-discounts",
+    "translation": {
+      "reaction-discounts": {
+        "admin": {
+          "settings": {
+            "discountsettingsLabel": "할인 설정"
+          },
+          "shortcut": {
+            "discountsLabel": "할인",
+            "discountsDescription": "판촉 및 할인 혜택을 제공하십시오."
+          },
+          "dashboard": {
+            "discountsLabel": "할인",
+            "discountsDescription": "판촉 및 할인 혜택을 제공하십시오."
+          }
+        }
+      }
+    }
+  }
+]

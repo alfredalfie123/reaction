@@ -1,0 +1,21 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-notification",
+    "translation": {
+      "reaction-notification": {
+        "admin": {
+          "dashboard": {
+            "smsLabel": "SMS 알림",
+            "smsTitle": "SMS",
+            "smsDescription": "알림"
+          },
+          "settings": {
+            "smsSettingsLabel": "SMS 알림"
+          }
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "i18n": "ko",
+    "ns": "reaction-shipping",
+    "translation": {
+      "reaction-shipping": {
+        "admin": {
+          "dashboard": {
+            "shippingLabel": "배송",
+            "shippingTitle": "배송",
+            "shippingDescription": "배송료 제공"
+          },
+          "settings": {
+            "shippingLabel": "배송"
+          }
+        },
+        "checkoutShipping": {
+          "selectShippingOption": "배송 옵션 선택",
+          "noShippingMethods": "배송 방법이 구성되어 있지 않습니다.",
+          "contactAdmin": "점포 관리자에게 문의하십시오.",
+          "configureNow": "지금 구성하십시오.",
+          "shipping": "배송"
+        },
+        "shipping": {
+          "addShippingProvider": "배송 업체 추가",
+          "editShippingProvider": "배송 업체 편집",
+          "addShippingMethod": "배송 방법 추가",
+          "editShippingMethod": "배송 방법 수정",
+          "deleteShippingMethod": "배송 방법 삭제",
+          "noSettingsForThisView": "이보기에 대한 설정이 없습니다.",
+          "noShippingMethods": "배송 방법이 구성되어 있지 않습니다.",
+          "removeShippingMethodConfirm": "{{method}}을 (를) 삭제 하시겠습니까?",
+          "removeShippingMethodTitle": "배송 방법 제거",
+          "shippingMethodDeleted": "이 운송 방법이 삭제되었습니다.",
+          "removeShippingProvider": "배송 업체 제거",
+          "removeShippingProviderConfirm": "{{provider}}을 (를) 삭제 하시겠습니까?",
+          "shippingProviderSaved": "배송 업체가 저장되었습니다.",
+          "shippingProviderUpdated": "배송 업체 데이터가 업데이트되었습니다.",
+          "shippingMethodRateAdded": "배송 방법 요금이 추가되었습니다.",
+          "shippingMethodRateUpdated": "배송 방법 비율이 업데이트되었습니다.",
+          "name": "이름",
+          "label": "상표",
+          "group": "그룹",
+          "cost": "비용",
+          "handling": "손질",
+          "rate": "율",
+          "enabled": "사용",
+          "disabled": "장애인",
+          "addRate": "요금 추가",
+          "updateRate": "{{name}} 요금 업데이트",
+          "addNewCondition": "새 조건 추가",
+          "deleteCondition": "조건 삭제",
+          "provider": {
+            "name": "서비스 코드",
+            "label": "공개 라벨",
+            "enabled": "사용"
+          }
+        },
+        "shippingMethod": {
+          "name": "메서드 이름",
+          "label": "공개 라벨",
+          "group": "그룹",
+          "cost": "비용",
+          "handling": "손질",
+          "rate": "율",
+          "enabled": "사용",
+          "matchingCartRanges": "일치하는 장바구니 범위",
+          "validRanges": {
+            "begin": "시작하다",
+            "end": "종료"
+          },
+          "matchingLocales": "일치하는 로케일",
+          "validLocales": {
+            "origination": "에서",
+            "destination": "에",
+            "deliveryBegin": "Shipping Est.",
+            "deliveryEnd": "배달 추정치."
+          }
+        },
+        "defaultParcelSize": {
+          "label": "소포 크기",
+          "saveFailed": "기본 소포 크기가 업데이트되지 않았습니다."
+        }
+      }
+    },
+    "language": "Korean"
+  }
+]
