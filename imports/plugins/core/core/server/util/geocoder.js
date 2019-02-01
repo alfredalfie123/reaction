@@ -107,14 +107,18 @@ GeoCoder.prototype.reverse = function geoCoderReverse(lat, lng, callback) {
 
 function gi(address, callback) {
   let lookupAddress = address;
+
+
   // short term solution to an haproxy ssl cert installation issue
   process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
   // if we're local, let's let freegeoip guess.
   if (lookupAddress === "127.0.0.1" || lookupAddress === null) {
     lookupAddress = "";
   }
+  console.log("lookupAddress", lookupAddress);
   // calls a private reaction hosted version of freegeoip
-  HTTP.call("GET", `https://geo.getreaction.io/json/${lookupAddress}`, callback);
+  // HTTP.call("GET", `https://geo.getreaction.io/json/${lookupAddress}`, callback);
+  HTTP.call("GET", `https://geo.getreaction.io/json/`, callback);
 }
 
 GeoCoder.prototype.geoip = function geoCoderGeocode(address, callback) {

@@ -52,6 +52,11 @@ export default function getLocale() {
   // geocode reverse ip lookup
   const geoCountryCode = geo.geoip(clientAddress).country_code;
 
+  // eslint-disable-next-line no-console
+  console.log("clientAddress", clientAddress);
+  // eslint-disable-next-line no-console
+  console.log("geoCountryCode", geoCountryCode);
+
   // countryCode either from geo or defaults
   const countryCode = (geoCountryCode || defaultCountryCode).toUpperCase();
 
